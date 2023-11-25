@@ -52,20 +52,7 @@ const RuleDefining = () => {
                             formik => (
                                 <Form>
                                     <Stack>
-                                        <FormControl>
-                                            <label htmlFor="numberOfTeams">Number of Teams:</label>
-                                            <Field type="number" id="numberOfTeams" name="numberOfTeams" />
-                                        </FormControl>
-
-                                        <FormControl>
-                                            <label htmlFor="groupType">Group Type:</label>
-                                            <Field type="text" id="groupType" name="groupType" />
-                                        </FormControl>
-
-                                        <FormControl>
-                                            <label htmlFor="groupBy">Group By:</label>
-                                            <Field type="text" id="groupBy" name="groupBy" />
-                                        </FormControl>
+                                        
 
                                         <Button type="submit">Submit</Button>
                                     </Stack>
