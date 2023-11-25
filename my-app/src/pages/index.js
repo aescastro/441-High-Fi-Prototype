@@ -1,9 +1,9 @@
 import Home from "./Home";
 import Excel from "./Excel";
-import Prototype from "./Prototype";
+import RuleDefining from "./RuleDefining";
 
 export { 
     Home,
     Excel,
-    Prototype
+    RuleDefining
 };

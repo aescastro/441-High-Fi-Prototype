@@ -5,7 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import {
   Home,
   Excel,
-  Prototype,
+  RuleDefining,
 } from "./pages";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="excel" element={<Excel />} />
-      <Route path="prototype" element={<Prototype />} />
+      <Route path="prototype" element={<RuleDefining />} />
     </Routes>
   );
 }
