@@ -6,6 +6,7 @@ import {
   Home,
   Excel,
   RuleDefining,
+  TeamAdjustments,
 } from "./pages";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="excel" element={<Excel />} />
       <Route path="prototype" element={<RuleDefining />} />
+      <Route path="team-adjustments" element={<TeamAdjustments />} />
     </Routes>
   );
 }
