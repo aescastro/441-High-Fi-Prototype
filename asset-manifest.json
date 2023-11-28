@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/441-High-Fi-Prototype/static/css/main.b1d7ec7b.css",
+    "main.js": "/441-High-Fi-Prototype/static/js/main.7b0d6e4e.js",
+    "static/js/787.d4aba7ab.chunk.js": "/441-High-Fi-Prototype/static/js/787.d4aba7ab.chunk.js",
+    "index.html": "/441-High-Fi-Prototype/index.html",
+    "main.b1d7ec7b.css.map": "/441-High-Fi-Prototype/static/css/main.b1d7ec7b.css.map",
+    "main.7b0d6e4e.js.map": "/441-High-Fi-Prototype/static/js/main.7b0d6e4e.js.map",
+    "787.d4aba7ab.chunk.js.map": "/441-High-Fi-Prototype/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1d7ec7b.css",
+    "static/js/main.7b0d6e4e.js"
+  ]
+}
