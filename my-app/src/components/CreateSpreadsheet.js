@@ -1,8 +1,3 @@
-import './App.css';
-
-import Spreadsheet from "react-spreadsheet";
-import {balance50Yoe , group20YearLevel} from './mockData';
-
 const whitespaceRow = [
   {value: ''},
   {value: ''},
@@ -25,7 +20,7 @@ function pushTeamRow(data, val) {
   ]);
 }
 
-function generateSpreadsheetData(teams) {
+export function generateSpreadsheetData(teams) {
   //one of group20YearLevel, balance50Yoe, and ___ will be parameter to this function
   var data = new Array();
 
@@ -61,11 +56,3 @@ function generateSpreadsheetData(teams) {
 
   return data;
 }
-
-const App = () => {
-  //TODO: select one of balance50Yoe, group20YearLevel, 30 smth skill
-  const data = generateSpreadsheetData(balance50Yoe);
-  return <Spreadsheet data={data} />;
-};
-
-export default App;

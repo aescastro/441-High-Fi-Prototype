@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Stack } from "react-bootstrap"
+import { Stack } from "react-bootstrap";
 
 const Home = () => {
     return (
