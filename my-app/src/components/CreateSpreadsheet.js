@@ -1,4 +1,14 @@
-const whitespaceRow = [
+const titleRow = [
+  {value: 'Name'},
+  {value: 'Year Level'},
+  {value: 'Years of Experience'},
+  {value: 'Skill 1'},
+  {value: 'Skill 2'},
+  {value: 'Skill 3'},
+  {value: 'Skill 4'},
+  {value: ''},
+  {value: ''},
+  {value: ''},
   {value: ''},
   {value: ''},
   {value: ''},
@@ -8,17 +18,6 @@ const whitespaceRow = [
   {value: ''},
 ]
 
-function pushTeamRow(data, val) {
-  data.push([
-    {value: 'team'.concat(' ', val.toString(10))}, 
-    {value: ''}, 
-    {value: ''}, 
-    {value: ''},
-    {value: ''},
-    {value: ''},
-    {value: ''},
-  ]);
-}
 
 export function generateSpreadsheetData(teams) {
   //one of group20YearLevel, balance50Yoe, and ___ will be parameter to this function
@@ -26,9 +25,6 @@ export function generateSpreadsheetData(teams) {
 
   //iterate through groups
   for (let i = 0; i < teams.length; i++) { 
-    
-    //push the team row, to indicate team number, add one because arrays are 0 indexed
-    pushTeamRow(data, i + 1);
 
     //iterate through people
     for (let j = 0; j < teams[i].length; j++) { 
@@ -44,15 +40,18 @@ export function generateSpreadsheetData(teams) {
         {value: teams[i][j].skills[3]},
       ]);
     }
-
-    //after team has ended, push whitespace rows to spreadsheet
-    //if it wasn't the last team
-    if (i < teams.length - 1) {
-      for (let k = 0; k < 3; k++) {
-        data.push(whitespaceRow);
-      }
-    }
   }
 
-  return data;
+  var randomedData = data.map(value => ({ value, sort: Math.random() }))
+  .sort((a, b) => a.sort - b.sort)
+  .map(({ value }) => value)
+
+  randomedData.unshift(titleRow)
+  
+  // add space below
+  for (let i = 0; i < data.length; i++){
+    randomedData.push([{value: ''}])
+  }
+
+  return randomedData
 }
