@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .group-left {
+    width: 40%;
+    padding: 20px;
+  }
+  
+  .group-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .group {
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    min-height: 100px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .group h2,
+  .group h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .item {
+    margin: 5px;
+    padding: 8px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .item:hover {
+    background-color: #d0d0d0;
+  }
+  
+  .drag-over {
+    border: 2px dashed #333;
+  }
