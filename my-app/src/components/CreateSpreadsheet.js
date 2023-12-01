@@ -20,15 +20,15 @@ export function generateSpreadsheetData(teams) {
     for (let j = 0; j < teams[i].length; j++) { 
 
       //add person to spreadsheet as a row
-      data.push([
-        {value: teams[i][j].name}, 
-        {value: teams[i][j].yearLevel}, 
-        {value: teams[i][j].yoe}, 
-        {value: teams[i][j].skills[0]},
-        {value: teams[i][j].skills[1]},
-        {value: teams[i][j].skills[2]},
-        {value: teams[i][j].skills[3]},
-      ]);
+      data.push({
+        "Name": teams[i][j].name, 
+        "Year Level": teams[i][j].yearLevel, 
+        "YOE": teams[i][j].yoe, 
+        "Skills 1": teams[i][j].skills[0],
+        "Skills 2": teams[i][j].skills[1],
+        "Skills 3": teams[i][j].skills[2],
+        "Skills 4": teams[i][j].skills[3],
+      });
     }
   }
 
