@@ -6,16 +6,6 @@ const titleRow = [
   {value: 'Skill 2'},
   {value: 'Skill 3'},
   {value: 'Skill 4'},
-  {value: ''},
-  {value: ''},
-  {value: ''},
-  {value: ''},
-  {value: ''},
-  {value: ''},
-  {value: ''},
-  {value: ''},
-  {value: ''},
-  {value: ''},
 ]
 
 
@@ -45,13 +35,6 @@ export function generateSpreadsheetData(teams) {
   var randomedData = data.map(value => ({ value, sort: Math.random() }))
   .sort((a, b) => a.sort - b.sort)
   .map(({ value }) => value)
-
-  randomedData.unshift(titleRow)
-  
-  // add space below
-  for (let i = 0; i < data.length; i++){
-    randomedData.push([{value: ''}])
-  }
 
   return randomedData
 }
