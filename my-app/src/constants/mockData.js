@@ -37,12 +37,12 @@ export const balanceSkill30 = [
       {name:"Derek",yearLevel:2,yoe:6,skills:["JavaScript","Java","Git","Vue.js"]},
       {name:"Liam",yearLevel:2,yoe:5,skills:["Java","SQL","React","AWS"]},
 	  {name:"Leo",yearLevel:4,yoe:5,skills:["React","Node.js","MongoDB","JIRA"]}
-      {name:"Wendy",yearLevel:3,yoe:8,skills:["Java","SQL","AWS","Vue.js"]},	  
+      {name:"Wendy",yearLevel:3,yoe:8,skills:["Java","SQL","AWS","Python"]},	  
     ],
     [
       {name:"Alice",yearLevel:1,yoe:6,skills:["JavaScript","React","CSS","MongoDB"]},
       {name:"Emma",yearLevel:1,yoe:7,skills:["React","Node.js","MongoDB","Git"]},
-      {name:"Ivy",yearLevel:1,yoe:8,skills:["Python","Java","Git","Angular"]},
+      {name:"Ivy",yearLevel:1,yoe:8,skills:["Python","Java","React","Angular"]},
       {name:"Mia",yearLevel:1,yoe:5,skills:["HTML","CSS","AWS","Scrum"]},
       {name:"Quinn",yearLevel:1,yoe:5,skills:["JavaScript","HTML","CSS","Webpack"]}
     ],
@@ -62,7 +62,7 @@ export const balanceSkill30 = [
     ],
     [
       {name:"David",yearLevel:4,yoe:7,skills:["Python","Docker","Redux","RESTful API"]},
-      {name:"Henry",yearLevel:4,yoe:8,skills:["React","Node.js","MongoDB","Webpack"]},
+      {name:"Henry",yearLevel:4,yoe:8,skills:["React","Node.js","Java","Webpack"]},
       {name:"Vince",yearLevel:2,yoe:8,skills:["JavaScript","HTML","CSS"]}
       {name:"Peter",yearLevel:4,yoe:6,skills:["Python","Docker","MongoDB","Angular"]},
       {name:"Tina",yearLevel:4,yoe:5,skills:["HTML","CSS","Docker","RESTful API"]}
