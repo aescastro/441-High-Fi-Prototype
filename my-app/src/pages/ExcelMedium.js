@@ -1,12 +1,12 @@
 import { Spreadsheet } from "react-spreadsheet";
 import React from "react";
-import { balance30Skill } from "../constants/mockData";
+import { balance30YearLevel } from "../constants/mockData";
 import { generateSpreadsheetData } from "../components/CreateSpreadsheet"
 import { RangeDirective, ColumnsDirective, ColumnDirective } from '@syncfusion/ej2-react-spreadsheet';
 import { SpreadsheetComponent, SheetsDirective, SheetDirective, RangesDirective, SortEventArgs } from '@syncfusion/ej2-react-spreadsheet';
   
 const ExcelMedium = () => {
-  const data = generateSpreadsheetData(balance30Skill);
+  const data = generateSpreadsheetData(balance30YearLevel);
   const spreadsheetRef = React.useRef(null);
   const headers = [{
         index: 0, // Need to specify the index for the first row collection, the specified rows will be inserted in this index.

@@ -23,7 +23,7 @@ export function generateSpreadsheetData(teams) {
       data.push({
         "Name": teams[i][j].name, 
         "Year Level": teams[i][j].yearLevel, 
-        "YOE": teams[i][j].yoe, 
+        "Years of Experience": teams[i][j].yoe, 
         "Skills 1": teams[i][j].skills[0],
         "Skills 2": teams[i][j].skills[1],
         "Skills 3": teams[i][j].skills[2],
