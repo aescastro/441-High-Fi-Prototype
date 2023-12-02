@@ -40,12 +40,14 @@
     cursor: pointer;
     user-select: none;
     transition: background-color 0.3s ease;
-  }
-
-  .item-text {
     display: flex;
     justify-content: space-between;
-    width: 100%; /* To occupy the full width of the container */
+    width: 100%; 
+  }
+  
+  .item div {
+    width: 100%;
+    /* Additional styling for the text container */
   }
   
   
@@ -69,4 +71,28 @@
     display: flex;
     justify-content: space-between; /* Adjust alignment as needed */
     /* Optionally, you can add more styles like padding, margin, etc. */
+  }
+
+  .item-text {
+    display: flex;
+    justify-content: space-between;
+    /* Additional styling for the item text container */
+  }
+  
+  .word-left {
+    flex: 1;
+    text-align: left;
+    /* Additional styling for the left-aligned word */
+  }
+  
+  .word-center {
+    flex: 1;
+    text-align: center;
+    /* Additional styling for the center-aligned word */
+  }
+  
+  .word-right {
+    flex: 1;
+    text-align: right;
+    /* Additional styling for the right-aligned word */
   }
