@@ -3,7 +3,7 @@ import Excel from "./Excel";
 import RuleDefining from "./RuleDefining";
 import TeamAdjustments from "./TeamAdjustments";
 import ExcelSmall from "./ExcelSmall";
-//import ExcelMedum from "./ExcelMedium";
+import ExcelMedium from "./ExcelMedium";
 import ExcelLarge  from "./ExcelLarge";
 
 export { 
@@ -12,6 +12,6 @@ export {
     RuleDefining,
     TeamAdjustments,
     ExcelSmall,
-    //ExcelMedium,
+    ExcelMedium,
     ExcelLarge
 };
