@@ -222,8 +222,8 @@ function MyDragAndDropComponent() {
         </div>
           <div className="label-row">
             <div className="label">Name</div>
-            <div className="label">Experience</div>
             <div className="label">Year</div>
+            <div className="label">Experience</div>
         </div>
   
         <div
@@ -256,8 +256,8 @@ function MyDragAndDropComponent() {
             </div>
             <div className="label-row">
             <div className="label">Name</div>
-            <div className="label">Experience</div>
             <div className="label">Year</div>
+            <div className="label">Experience</div>
             </div>
             <div
               className="group"
