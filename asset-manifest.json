@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/441-High-Fi-Prototype/static/css/main.b1d7ec7b.css",
-    "main.js": "/441-High-Fi-Prototype/static/js/main.a5738812.js",
+    "main.css": "/441-High-Fi-Prototype/static/css/main.8732aa3a.css",
+    "main.js": "/441-High-Fi-Prototype/static/js/main.73e94d73.js",
     "static/js/787.d4aba7ab.chunk.js": "/441-High-Fi-Prototype/static/js/787.d4aba7ab.chunk.js",
     "index.html": "/441-High-Fi-Prototype/index.html",
-    "main.b1d7ec7b.css.map": "/441-High-Fi-Prototype/static/css/main.b1d7ec7b.css.map",
-    "main.a5738812.js.map": "/441-High-Fi-Prototype/static/js/main.a5738812.js.map",
+    "main.8732aa3a.css.map": "/441-High-Fi-Prototype/static/css/main.8732aa3a.css.map",
+    "main.73e94d73.js.map": "/441-High-Fi-Prototype/static/js/main.73e94d73.js.map",
     "787.d4aba7ab.chunk.js.map": "/441-High-Fi-Prototype/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1d7ec7b.css",
-    "static/js/main.a5738812.js"
+    "static/css/main.8732aa3a.css",
+    "static/js/main.73e94d73.js"
   ]
 }
