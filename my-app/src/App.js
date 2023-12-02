@@ -9,7 +9,7 @@ import {
   RuleDefining,
   TeamAdjustments,
   ExcelSmall,
-  //ExcelMedium,
+  ExcelMedium,
   ExcelLarge
 } from "./pages";
 
@@ -24,6 +24,8 @@ function App() {
       <Route path="team-adjustments" element={<TeamAdjustments />} />
       <Route path="excel/small" element ={<ExcelSmall />} />
       <Route path="excel/large" element = {<ExcelLarge />} /> 
+	  
+      <Route path="excel/medium" element = {<ExcelMedium />} /> 
     </Routes>
   );
 }

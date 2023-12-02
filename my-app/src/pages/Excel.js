@@ -13,6 +13,7 @@ const Excel = () => {
             }}
         >
             <Link to="small">ExcelSmall</Link>
+			<Link to="medium">ExcelMedium</Link> 
             <Link to="large">ExcelLarge</Link>
         </Stack>
     )

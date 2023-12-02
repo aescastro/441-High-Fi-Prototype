@@ -31,7 +31,7 @@ export const group20YearLevel = [
     ],
 ];
 
-export const balanceSkill30 = [
+export const balance30Skill = [
     [
       {name:"Zack",yearLevel:2,yoe:7,skills:["HTML","CSS","Redux","Express"]},
       {name:"Derek",yearLevel:2,yoe:6,skills:["JavaScript","Java","Git","Vue.js"]},
