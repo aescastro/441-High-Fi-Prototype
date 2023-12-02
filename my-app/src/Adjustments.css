@@ -41,11 +41,32 @@
     user-select: none;
     transition: background-color 0.3s ease;
   }
+
+  .item-text {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* To occupy the full width of the container */
+  }
+  
   
   .item:hover {
     background-color: #d0d0d0;
   }
   
-  .drag-over {
-    border: 2px dashed #333;
+
+  .pool-header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns for Name, Experience, Year */
+    /* Adjust column sizes or add more columns as needed */
+  }
+  
+  .label {
+    /* Styles for column labels */
+    text-align: center; /* Align labels in the center */
+  }
+
+  .label-row {
+    display: flex;
+    justify-content: space-between; /* Adjust alignment as needed */
+    /* Optionally, you can add more styles like padding, margin, etc. */
   }
